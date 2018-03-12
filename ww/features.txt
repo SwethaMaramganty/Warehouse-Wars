@@ -1,0 +1,115 @@
+Features: For each feature you implement, move to the Implemented section and
+explain who did it (utorid) and how you did it. You can consider these as 
+almost user stories, if you just add a bit to them. Add more features/user stories at the bottom.
+Move them up when completed.
+
+------------------------------------------------------------------------------------
+Implemented: 
+------------------------------------------------------------------------------------
+0) Description: User logout
+   Done by: maramgan
+   Explanation: User can logout anytime
+
+1) Description: User Authentication
+   Done by: maramgan
+   Explanation: Verifies user password and username
+
+2) Description: User records are stored in an sqlite3 database
+   Done by: maramgan
+   Explanation: Implemented a database to store all the information
+
+3) Description: Login User
+   Done by: maramgan
+   Explanation: User can login
+
+4) Description: Register User
+   Done by: maramgan
+   Explanation: User can create an account and register. This takes them to the Login page.
+
+5) Description: Edit Profile
+   Done by: maramgan
+   Explanation: Users can update their profile.
+
+6) Description: Delete Account
+   Done by: maramgan
+   Explanation: Users can delete their account.
+
+7) Description: Appropriately hiding and showing views
+   Done by: maramgan and delianan
+   Explanation: Everything is in one html file
+
+8) Description: CSS design
+   Done by: delianan and maramgan
+   Explanation: 
+
+9) Description: Description page before playing
+   Done by: delianan
+   Explanation: Short paragraph describing the game before starting the game.
+
+10) Description: Moving the monsters
+    Done by: delianan
+    Explanation: Monsters move to an adjacent box every second
+
+11) Description: Moving the player
+    Done by: delianan
+    Explanation: The player can move to an adjacent box
+
+12) Description: The player moves the boxes
+    Done by: delianan
+    Explanation: Player can push the boxes
+
+14) Description: The monster dies when trapped
+    Done by: delianan
+    Explanation: The monster died when surrounded by boxes.
+
+15) Description: A special monster
+    Done by: delianan
+    Explanation: When it runs into an obstacle, it chooses another available direction.
+
+16) Description: Monsters can kill player
+    Done by: delianan
+    Explanation: The player dies when monster occupies the same space.
+
+17) Description: Timer
+    Done by: delianan
+    Explanation: When the timer runs out, the user dies.
+
+18) Description: Pause 
+    Done by: delianan
+    Explanation: The game can be put on pause. The keys and arrows are disabled, timer is paused, monsters can't move.
+
+19) Description: Continue
+    Done by: delianan
+    Explanation: The game can be continued after paused.
+
+20) Description: Move player from the arrows and from the keyboard
+    Done by: delianan
+    Explanation:
+
+21) Description: Updating score during the game
+    Done by: delianan
+    Explanation:
+
+22) Description: Storing scores in the database
+    Done by: maramgan
+    Explanation: Everytime the user dies or wins the game, the score gets added to the database.
+
+23) Description: User can see his individual scores
+    Done by: maramgan
+    Explanation: When you click on myScores, the user is able to see the individual scores for their games.
+
+24) Description: Leaderboard
+    Done by: maramgan
+    Explanation: The leaderboard shows top scores of all users. 
+
+25) Description: Response code errors
+    Done by: maramgan
+    Explanation: When there is an error, an appropriate error code is returned in the response in JSON.
+
+26) Description: back button
+    Done by: maramgan
+    Explanation: The user can go back to the main login and main register screen if they click it. 
+
+27) Description: User authorization
+    Done by: maramgan
+    Explanation: Verifies the user password and user name in the backend before adding anything to the database.
