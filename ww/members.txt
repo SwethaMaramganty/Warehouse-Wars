@@ -1,7 +1,0 @@
-Member 1
-Name: Nensi Deliana
-Utorid: delianan
-
-Member 2
-Name: Swetha Maramganty
-Utorid: maramgan
